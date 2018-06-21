@@ -1,0 +1,26 @@
+{
+  "name": "steamgroup",
+  "version": "1.0.0",
+  "description": "A module that let's you see the members of a steamgroup",
+  "main": "index.js",
+  "scripts": {
+    "test": "steamgroup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThunbergOlle/steamgroup.git"
+  },
+  "keywords": [
+    "steamgroup"
+  ],
+  "author": "OlleThunberg <olle.thunberg03@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThunbergOlle/steamgroup/issues"
+  },
+  "homepage": "https://github.com/ThunbergOlle/steamgroup#readme",
+  "dependencies": {
+    "request": "^2.87.0",
+    "xml-to-json-promise": "0.0.3"
+  }
+}
