@@ -1,6 +1,6 @@
 {
-  "name": "steamgroup",
-  "version": "1.0.0",
+  "name": "node-steam-group",
+  "version": "1.0.4",
   "description": "A module that let's you see the members of a steamgroup",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,19 @@
     "url": "git+https://github.com/ThunbergOlle/steamgroup.git"
   },
   "keywords": [
-    "steamgroup"
+    "node-steam-group",
+    "steamgroup",
+    "steam-group",
+    "steam clan members",
+    "groupmembers steam",
+    "steam-members",
+    "steam-node",
+    "steam module",
+    "steam group",
+    "module steam",
+    "node-steam",
+    "steam-get-members",
+    "steam"
   ],
   "author": "OlleThunberg <olle.thunberg03@gmail.com>",
   "license": "MIT",

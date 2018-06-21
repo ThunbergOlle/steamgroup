@@ -1,32 +1,31 @@
-# SteamGroup
+# Steam-groups
 This is an easy to use module that gets all the members from a steamgroup and outputs them as an object.
----
-**This module was made and published by OlleThunberg**
-[ThunbergOlle - Github](https://github.com/ThunbergOlle)
-[Project - Github](https://github.com/ThunbergOlle/steamgroup)
----
+This module was made and published by [OlleThunberg](https://github.com/ThunbergOlle)
+
+**Contribute:**[Github Rep](https://github.com/ThunbergOlle/steamgroup)
+
+
 
 **Install**
 ```js
-npm install node-get-time --save
-
+npm install node-steam-group --save
 ```
 **Import**
 ```js
-const steamgroup = require('steamgroup');
+const steamgroup = require('node-steam-group');
 ```
 
 ## Methods
 ```js
-const steamgroup = require('steamgroup');
+const steamgroup = require('node-steam-group');
 steamgroup.getmembers(function(err, callback){});
 ```
 ## Example
 **You can copy and paste this!**
 ```js
-const steamgroup = require('steamgroup');
-steamgroup.getmembers("unturnedgametrade", function(err, members){
-    console.log(members);
+const steamgroup = require('node-steam-group');
+steamgroup.getmembers("unturnedgametrade", function(err, members){ //Calls the function
+console.log(members);   //Logs all the members recieved
 });
 ```
 **Output**
@@ -42,6 +41,8 @@ steamgroup.getmembers("unturnedgametrade", function(err, members){
   '76561198371743116' ]
 ```
 
+### More info
+I'm really **happy** if you'd like to share this module or use this in your upcomming bot or script or whatever you are going to use this for. If you feel like there is anything missing then please open an issue on the [Github](https://github.com/ThunbergOlle/steamgroup) page. I will fix it as soon as possible.
 
 ## License
 MIT License
